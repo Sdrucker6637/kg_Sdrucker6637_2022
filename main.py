@@ -9,10 +9,7 @@ def mapchecker(s1,s2):
             if s1[i] not in dr:
                 dr[s1[i]]=s2[i]
             if dr[s1[i]]!=s2[i]:
-                print("False")
                 return False
-        print("True")
         return True
-    print("True")
     return False
 
